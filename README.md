@@ -1,7 +1,7 @@
 # A simple Style Guide for Labels
 
 ## ![](assets/section.png) Section 
-### Color: `#34495E`
+### Color: [`#34495E`](http://www.colorhexa.com/34495E)
 
 |Label|Description|
 |---|---|
@@ -12,7 +12,7 @@
 |`frontend`|Designates that the isssue belongs to the frontend.|
 
 ## ![](assets/problems.png) Problems 
-### Color: `#A90000`
+### Color: [`#A90000`](http://www.colorhexa.com/A90000)
 
 |Label|Description|
 |---|---|
@@ -23,7 +23,7 @@
 |`externally blocked`|Issues where further work is prevented by an external dependency.|
 
 ## ![](assets/mindless.png) Mindless 
-### Color: `#F0AD4E`
+### Color: [`#F0AD4E`](http://www.colorhexa.com/F0AD4E)
 
 |Label|Description|
 |---|---|
@@ -33,7 +33,7 @@
 |`technical debt`|Refactoring existing features or infrastructure.|
 
 ## ![](assets/experience.png) Experience 
-### Color: `#C1327A`
+### Color: [`#C1327A`](http://www.colorhexa.com/C1327A)
 
 |Label|Description|
 |---|---|
@@ -43,7 +43,7 @@
 |`microcopy`|An issue that addresses small bits of copy on the user interface.|
 
 ## ![](assets/environment.png) Environment 
-### Color: `#FF5A00`
+### Color: [`#FF5A00`](http://www.colorhexa.com/FF5A00)
 
 |Label|Description|
 |---|---|
@@ -51,7 +51,7 @@
 |`production`|Issues related to production environments.|
 
 ## ![](assets/feedback.png) Feedback 
-### Color: `#A8E44AD`
+### Color: [`#A8E44AD`](http://www.colorhexa.com/A8E44AD)
 
 |Label|Description|
 |---|---|
@@ -62,7 +62,7 @@
 |`help wanted`| Requires assistance to resolve or determine action steps.|
 
 ## ![](assets/improvements.png) Improvements 
-### Color: `#428BCA`
+### Color: [`#428BCA`](http://www.colorhexa.com/428BCA)
 
 |Label|Description|
 |---|---|
@@ -70,14 +70,14 @@
 |`optimization`|Iterations on existing features or infrastructure with a focus on improving speed.|
 
 ## ![](assets/additions.png) Additions 
-### Color: `#004E00`
+### Color: [`#004E00`](http://www.colorhexa.com/004E00)
 
 |Label|Description|
 |---|---|
 |`feature`|An issue that will result in new functionality.|
 
 ## ![](assets/pending.png) Pending 
-### Color: `#5CB85C`
+### Color: [`#5CB85C`](http://www.colorhexa.com/5CB85C)
 
 |Label|Description|
 |---|---|
@@ -85,7 +85,7 @@
 |`under consideration`|Action has being taken, but dependencies need progress.|
 
 ## ![](assets/inactive.png) Inactive 
-### Color: `#7F8C8D`
+### Color: [`#7F8C8D`](http://www.colorhexa.com/7F8C8D)
 
 |Label|Description|
 |---|---|
