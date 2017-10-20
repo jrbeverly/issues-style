@@ -1,13 +1,95 @@
 # A simple Style Guide for Labels
 
-## <div style="width: 20px; height:20px;background: #13b4ff;display: inline-block;"></div> Section 
+## ![](assets/section.png) Section 
+### Color: `#34495E`
 
-Lorem ipsum
+|Label|Description|
+|---|---|
+|`api`|Designates that the isssue belongs to the API.|
+|`build`|Designates that the isssue belongs to the build process.|
+|`core`|Designates that the isssue belongs to the general product.|
+|`backend`|Designates that the isssue belongs to the backend.|
+|`frontend`|Designates that the isssue belongs to the frontend.|
 
-## <div style="width: 20px; height:20px;background: #13b4ff;display: inline-block;"></div> Section 
+## ![](assets/problems.png) Problems 
+### Color: `#A90000`
 
-Lorem ipsum
+|Label|Description|
+|---|---|
+|`blocked`|Issues where further work is prevented by a dependency.|
+|`blocker`|Issues that prevent further work.|
+|`bug`|Issues that make the product feel broken. High priority, especially if its present in production.|
+|`hotfix`|Issues that are patched outside the traditional release channel.|
+|`externally blocked`|Issues where further work is prevented by an external dependency.|
 
-## <div style="width: 20px; height:20px;background: #13b4ff;display: inline-block;"></div> Section 
+## ![](assets/mindless.png) Mindless 
+### Color: `#F0AD4E`
 
-Lorem ipsum
+|Label|Description|
+|---|---|
+|`chore`|Issues that are necessary but less impactful for our users.|
+|`legal`|Legal implications or requirements for the feature.|
+|`experience debt`|Refactoring existing features that affect user’s experience of the product.|
+|`technical debt`|Refactoring existing features or infrastructure.|
+
+## ![](assets/experience.png) Experience 
+### Color: `#C1327A`
+
+|Label|Description|
+|---|---|
+|`documentation`|Issues that affect the comprehension of the product.|
+|`developer experience`|Issues that affect the development process.|
+|`user experience`|Issues that affect the user's comprehension of the product.|
+|`microcopy`|An issue that addresses small bits of copy on the user interface.|
+
+## ![](assets/environment.png) Environment 
+### Color: `#FF5A00`
+
+|Label|Description|
+|---|---|
+|`staging`|Issues related to staging environments.|
+|`production`|Issues related to production environments.|
+
+## ![](assets/feedback.png) Feedback 
+### Color: `#A8E44AD`
+
+|Label|Description|
+|---|---|
+|`prototype`|An issue that will result in a prototype.|
+|`question`| Required questions or concerns need to be addressed.|
+|`request` for comments|Requires conversation on the current task.|
+|`research`|Requires further investigation to determine action steps.|
+|`help wanted`| Requires assistance to resolve or determine action steps.|
+
+## ![](assets/improvements.png) Improvements 
+### Color: `#428BCA`
+
+|Label|Description|
+|---|---|
+|`enhancement`|Iterations on existing features or infrastructure.|
+|`optimization`|Iterations on existing features or infrastructure with a focus on improving speed.|
+
+## ![](assets/additions.png) Additions 
+### Color: `#004E00`
+
+|Label|Description|
+|---|---|
+|`feature`|An issue that will result in new functionality.|
+
+## ![](assets/pending.png) Pending 
+### Color: `#5CB85C`
+
+|Label|Description|
+|---|---|
+|`consumable`|The issue is ready to be taken.|
+|`under consideration`|Action has being taken, but dependencies need progress.|
+
+## ![](assets/inactive.png) Inactive 
+### Color: `#7F8C8D`
+
+|Label|Description|
+|---|---|
+|`duplicate`|No action needed or possible. The issue is either fixed, or addressed better by other issues.|
+|`on hold`|No action needed or possible. The issue is to be addressed at a later date.|
+|`invalid`|No action needed or possible. The issue is deemed out of scope.|
+|`won't fix`|No action needed or possible. The issue is out of product scope or deemed unnecessary.|
