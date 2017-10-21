@@ -18,7 +18,7 @@
 |---|---|
 |`blocked`|Issues where further work is prevented by a dependency.|
 |`blocker`|Issues that prevent further work.|
-|`bug`|Issues that make the product feel broken. High priority, especially if its present in production.|
+|`bug`|A problem which impairs or prevents the functions of the product.|
 |`hotfix`|Issues that are patched outside the traditional release channel.|
 |`externally blocked`|Issues where further work is prevented by an external dependency.|
 
@@ -28,8 +28,8 @@
 |Label|Description|
 |---|---|
 |`chore`|Issues that are necessary but less impactful for our users.|
-|`legal`|Legal implications or requirements for the feature.|
-|`experience debt`|Refactoring existing features that affect user’s experience of the product.|
+|`legal`|Legal implications or requirements for the product.|
+|`experience debt`|Refactoring existing features that affect the user’s experience of the product.|
 |`technical debt`|Refactoring existing features or infrastructure.|
 
 ## ![](assets/experience.png) Experience 
@@ -56,10 +56,10 @@
 |Label|Description|
 |---|---|
 |`prototype`|An issue that will result in a prototype.|
-|`question`| Required questions or concerns need to be addressed.|
-|`request` for comments|Requires conversation on the current task.|
+|`question`|An issue has concerns that need to be addressed.|
+|`request for comments`|Requires conversation on the current task.|
 |`research`|Requires further investigation to determine action steps.|
-|`help wanted`| Requires assistance to resolve or determine action steps.|
+|`help wanted`|Requires assistance to resolve or determine action steps.|
 
 ## ![](assets/improvements.png) Improvements 
 ### Color: [`#428BCA`](http://www.colorhexa.com/428bca)
@@ -82,7 +82,7 @@
 |Label|Description|
 |---|---|
 |`consumable`|The issue is ready to be taken.|
-|`under consideration`|Action has being taken, but dependencies need progress.|
+|`under consideration`|Action is being taken, but dependencies need progress.|
 
 ## ![](assets/inactive.png) Inactive 
 ### Color: [`#7F8C8D`](http://www.colorhexa.com/7f8c8d)
