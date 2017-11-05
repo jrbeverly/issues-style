@@ -23,7 +23,7 @@ gitlab-copy is a simple tool for copying issues/labels/milestones/notes from one
 
 ### Usage
 
-To copy an template issues or labels, you will need to create a YAML configuration file to be used by the gitlab utility `gitlab-copy`. The configuration file will specify source and targets, along with the access tokens for each of the gitlab instances. The `gitlab.yml` will be of the form:
+To copy an template issues or labels, you can use the batch copy utility [`gitlab-copy`](https://github.com/gotsunami/gitlab-copy). You will need to create a YAML configuration file to be used by the gitlab utility `gitlab-copy`. You can view a sample template for copying over labels [here](src/labels.yaml). The configuration file will specify source and targets, along with the access tokens for each of the gitlab instances. The `gitlab.yml` will be of the form:
 
 ```yaml
 from:
