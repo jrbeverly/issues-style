@@ -48,3 +48,7 @@ If you would like to perform a smoke run, you can omit the `-y` flag to not exec
 ```bash
 gitlab-copy -y gitlab.yml
 ```
+
+## Acknowledgements
+
+The project icon is retrieved from the Noun Project. The icon is by [Desbenoit from the Noun Project](docs/icon/icon.json).
