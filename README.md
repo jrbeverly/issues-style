@@ -1,95 +1,50 @@
-# A simple Style Guide for Labels
+# Issues.Style
 
-## ![](assets/section.png) Section 
-### Color: [`#34495E`](http://www.colorhexa.com/34495e)
+## Summary
 
-|Label|Description|
-|---|---|
-|`api`|Designates that the isssue belongs to the API.|
-|`build`|Designates that the isssue belongs to the build process.|
-|`core`|Designates that the isssue belongs to the general product.|
-|`backend`|Designates that the isssue belongs to the backend.|
-|`frontend`|Designates that the isssue belongs to the frontend.|
+A style guide for issue management, release versioning, Git Flow and repository documentation.
 
-## ![](assets/problems.png) Problems 
-### Color: [`#A90000`](http://www.colorhexa.com/a90000)
+## Description
 
-|Label|Description|
-|---|---|
-|`blocked`|Issues where further work is prevented by a dependency.|
-|`blocker`|Issues that prevent further work.|
-|`bug`|A problem which impairs or prevents the functions of the product.|
-|`hotfix`|Issues that are patched outside the traditional release channel.|
-|`externally blocked`|Issues where further work is prevented by an external dependency.|
+In order to speed up the initialization process of a new gitlab project, Issues.Style provides a set of common labels and issues that might be used when setting up a new project. The project provides methods for quickly setting up the project, specifically providing the following:
 
-## ![](assets/mindless.png) Mindless 
-### Color: [`#F0AD4E`](http://www.colorhexa.com/f0ad4e)
+* Labels - Grouped by color, according to broad themes
+* Setup Issues - Initialization labels, including licensing, documentation, CI and metadata.
 
-|Label|Description|
-|---|---|
-|`chore`|Issues that are necessary but less impactful for our users.|
-|`legal`|Legal implications or requirements for the product.|
-|`experience debt`|Refactoring existing features that affect the user’s experience of the product.|
-|`technical debt`|Refactoring existing features or infrastructure.|
+### Labels
 
-## ![](assets/experience.png) Experience 
-### Color: [`#C1327A`](http://www.colorhexa.com/c1327a)
+The project labels can be viewed on Gitlab in the Issues > Labels section, or you can view them here in [labels.md](src/labels.md).
 
-|Label|Description|
-|---|---|
-|`documentation`|Issues that affect the comprehension of the product.|
-|`developer experience`|Issues that affect the development process.|
-|`user experience`|Issues that affect the user's comprehension of the product.|
-|`microcopy`|An issue that addresses small bits of copy on the user interface.|
+## Getting Started
 
-## ![](assets/environment.png) Environment 
-### Color: [`#FF5A00`](http://www.colorhexa.com/ff5a00)
+First, make sure you have valid GitLab account tokens for both source and destination GitLab installations. They are used to access GitLab resources without authentication. GitLab private tokens are availble in "Profile Settings -> Account".
 
-|Label|Description|
-|---|---|
-|`staging`|Issues related to staging environments.|
-|`production`|Issues related to production environments.|
+gitlab-copy is a simple tool for copying issues/labels/milestones/notes from one GitLab project to another, possibly running on different GitLab instances.
 
-## ![](assets/feedback.png) Feedback 
-### Color: [`#A8E44AD`](http://www.colorhexa.com/a8e44ad)
+### Usage
 
-|Label|Description|
-|---|---|
-|`prototype`|An issue that will result in a prototype.|
-|`question`|An issue has concerns that need to be addressed.|
-|`request for comments`|Requires conversation on the current task.|
-|`research`|Requires further investigation to determine action steps.|
-|`help wanted`|Requires assistance to resolve or determine action steps.|
+To copy an template issues or labels, you will need to create a YAML configuration file to be used by the gitlab utility `gitlab-copy`. The configuration file will specify source and targets, along with the access tokens for each of the gitlab instances. The `gitlab.yml` will be of the form:
 
-## ![](assets/improvements.png) Improvements 
-### Color: [`#428BCA`](http://www.colorhexa.com/428bca)
+```yaml
+from:
+  url: https://gitlab.com
+  token: ${TOKEN}
+  project: jrbeverly/Issues.Style
+  labelsOnly: true
+to:
+  url: https://gitlab.com
+  token: ${TOKEN}
+  project: jrbeverly/new_project
+```
 
-|Label|Description|
-|---|---|
-|`enhancement`|Iterations on existing features or infrastructure.|
-|`optimization`|Iterations on existing features or infrastructure with a focus on improving speed.|
+The above will copy just the labels from the `Issue.Styles` project. Using `gitlab-copy`, you can then copy the labels from the Issues.Style to another project. You can do this with the following command:
 
-## ![](assets/additions.png) Additions 
-### Color: [`#004E00`](http://www.colorhexa.com/004e00)
+```bash
+gitlab-copy -y gitlab.yml
+```
 
-|Label|Description|
-|---|---|
-|`feature`|An issue that will result in new functionality.|
+If you would like to perform a smoke run, you can omit the `-y` flag to not execute. You can do that as such:
 
-## ![](assets/pending.png) Pending 
-### Color: [`#5CB85C`](http://www.colorhexa.com/5cb85c)
-
-|Label|Description|
-|---|---|
-|`consumable`|The issue is ready to be taken.|
-|`under consideration`|Action is being taken, but dependencies need progress.|
-
-## ![](assets/inactive.png) Inactive 
-### Color: [`#7F8C8D`](http://www.colorhexa.com/7f8c8d)
-
-|Label|Description|
-|---|---|
-|`duplicate`|No action needed or possible. The issue is either fixed, or addressed better by other issues.|
-|`on hold`|No action needed or possible. The issue is to be addressed at a later date.|
-|`invalid`|No action needed or possible. The issue is deemed out of scope.|
-|`won't fix`|No action needed or possible. The issue is out of product scope or deemed unnecessary.|
+```bash
+gitlab-copy -y gitlab.yml
+```
