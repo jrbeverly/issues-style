@@ -4,7 +4,7 @@
 
 ## Proposal
 
-(<)An expanded description of the issue describing the task at hand, and all the related problems with it)
+(< An expanded description of the issue describing the task at hand, and all the related problems with it)
 
 ## Criteria
 
