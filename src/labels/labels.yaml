@@ -1,0 +1,9 @@
+from:
+  url: https://gitlab.com
+  token: ${TOKEN}
+  project: jrbeverly/Issues.Style
+  labelsOnly: true
+to:
+  url: https://gitlab.com
+  token: ${TOKEN}
+  project: jrbeverly/new_project
