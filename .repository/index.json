@@ -17,5 +17,7 @@
     "templates",
     "pull-requests"
   ],
-  "languages": []
+  "languages": [
+    "Dockerfile"
+  ]
 }
