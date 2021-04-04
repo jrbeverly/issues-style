@@ -1,0 +1,21 @@
+slug: issues-style
+description: A style guide for issue management, release versioning, Git Flow and repository documentation.
+project: workbench
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "issues",
+    "issue-management",
+    "prototype",
+    "team",
+    "organization",
+    "markdown",
+    "templates",
+    "pull-requests"
+  ]
